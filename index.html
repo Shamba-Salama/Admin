@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KE430-Angata CDC</title>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <!-- material icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" />
+
+</head>
+<body>
+    <div class="container">
+         <aside>
+            <div class="top">
+                 <div class="logo">
+                      <img src="Assets/Images/logo.png" alt="">
+                      <h2>Shamba <br><span class="danger">Salama</span></h2>
+                 </div>
+                 <div class="close" id="close-btn">
+                     <span class="material-icons-sharp">close</span>
+                 </div>   
+               </div>
+
+               <div class="sidebar">
+                  <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                  </a>
+
+                  <a href="#" class="active">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Participants</h3>
+                  </a>
+
+                  <a href="Html/beneficiaries.html">
+                    <span class="material-icons-sharp">video_call</span>
+                    <h3>Drone Control</h3>
+                  </a>
+
+                  <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                  </a>
+
+                  <a href="#">
+                    <span class="material-icons-sharp">notifications</span>
+                    <h3>Notifications</h3>
+                  </a>
+
+
+                  <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>analytics</h3>
+                  </a>
+
+                  <a href="#">
+                    <span class="material-icons-sharp">spa</span>
+                    <h3>My Crops</h3>
+                  </a>
+
+                  <a href="#">
+                    <span class="material-icons-sharp">support_agent</span>
+                    <h3>Assistant</h3>
+                  </a>
+
+
+                  <a href="#">
+                    <span class="material-icons-sharp">paid</span>
+                    <h3>Pricing</h3>
+                  </a>
+
+                  <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                  </a>
+                  
+                  <!-- <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Participant</h3>
+                  </a> -->
+                 
+                  <a class="last" href="login.html" target="_self">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                  </a>
+              </div>
+         </aside>
+
+         <!-- -----------END OF ASIDE ------------- -->
+
+         <main>
+            <h1>Dashboard</h1>
+
+             <div class="date">
+                <p id="date-el"></p>
+            </div>
+
+            <div class="insights">
+                 <div class="sales">
+                  <span class="material-icons-sharp">device_thermostat</span>
+                  <div class="middle">
+                     <div class="left">
+                      <h3>Temperature</h3>
+                      <h1>54 °C</h1>
+                     </div>
+                     <div class="progress">
+                       <svg>
+                           <circle cx='38' cy='36'  r='36'></circle>
+                       </svg>
+                       <div class="number">
+                        <p>81%</p>
+                       </div>
+                     </div>
+                  </div>
+                  <small class="text-muted">last 24hrs</small>
+                </div>
+
+                <!-- END OF FEE -->
+
+               <div class="income">
+                  <span class="material-icons-sharp">water</span>
+                  <div class="middle">
+                     <div class="left">
+                      <h3>Humidity</h3>
+                      <h1>50 G</h1>
+                     </div>
+                     <div class="progress">
+                       <svg>
+                           <circle cx='38' cy='36' r='36'></circle>
+                       </svg>
+                       <div class="number">
+                        <p>51%</p>
+                       </div>
+                     </div>
+                  </div>
+                  <small class="text-muted">last 24hrs</small>
+                </div>
+
+                <!-- END OF ACADEMICS -->
+
+                <div class="expenses">
+                  <span class="material-icons-sharp">stacked_line_chart</span>
+                  <div class="middle">
+                     <div class="left">
+                      <h3>Moisture</h3>
+                      <h1>50 F</h1>
+                     </div>
+                     <div class="progress">
+                       <svg>
+                           <circle cx='38' cy='36' r='36'></circle>
+                       </svg>
+                       <div class="number">
+                        <p>61%</p>
+                       </div>
+                     </div>
+                   </div>
+                  <small class="text-muted">last 24hrs</small>
+                </div>
+                <!-- -------- End of Expenses-------- -->
+            </div>   
+            <!-- -----------------End of Insights------- -->
+            <div class="recent-orders">
+
+                <h2>Weekly Weather</h2>
+                <table>
+                   <thead>
+                        <tr>
+                           <th>Day</th>
+                           <th>Rainfall</th>
+                           <th>Humidity</th>
+                           <th>Moisture</th>
+                           <th>Temperature</th>
+                           <th></th>
+                        </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Monday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                     </tr>
+
+                      <tr>
+                        <td>Tuesday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+
+                      <tr>
+                        <td>Wednesday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+
+
+                      <tr>
+                        <td>Thursday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+
+                      <tr>
+                        <td>Friday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+
+                      <tr>
+                        <td>Saturday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+
+                      
+                      <tr>
+                        <td>Sunday</td>
+                        <td>---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="warning">---Loading---</td>
+                        <td>---Loading---</td>
+                        <td class="primary">---Loading---</td>
+                      </tr>
+                   </tbody>
+                 </table>
+              <a href="#">View More</a>
+            </div>
+         </main>
+         <!-- ---------END OF MAIN ---------- -->
+
+         <div class="right">
+               <div class="top">
+                    <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                    </button>
+
+                 <div class="theme-toggler">
+                      <span class="material-icons-sharp active">light_mode</span>
+                      <span class="material-icons-sharp">dark_mode</span>                    
+                  </div>
+                  <div class="profile">
+                  <div class="info">
+                       <p>Hello, <b>Hope</b></p>
+                       <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                      <img src="Assets/Images/hope.jpg" alt="">
+                    </div>
+               </div>
+           </div>
+           <!-- END OF TOP -->
+           <div class="recent-updates">
+             <h2>Recent Updates</h2>
+                    <div class="updates">
+                        <div class="update">
+                            <div class="profile-photo">
+                                 <img src="Assets/Images/hope.jpg" alt="">
+                            </div>
+                              <div class="message">
+                                <p><b>Web Assistant  :</b>We have a scheduled maitainance from 20th oct 2024, Your sytem will be back and running from 30th oct 2024</p>
+                                <small class="text-muted">2 Minutes Ago</small>
+                              </div>
+                        </div>
+                        
+                        <div class="update">
+                            <div class="profile-photo">
+                              <img src="Assets/Images/hack.jpg" alt="">
+                            </div>
+                            <div class="message">
+                              <p><b>Hardware Assistant  :</b> Use a protective carrying case for transporting the drone and remove propellers and secure the gimbal to prevent damage</p>
+                              <small class="text-muted">2 Minutes Ago</small>
+                            </div>
+                        </div>
+
+                        <div class="update">
+                              <div class="profile-photo">
+                                <img src="Assets/Images/hope.jpg" alt="">
+                              </div>
+
+                              <div class="message">
+                                <p><b>General Assistant  :</b> You can now upgrade for our new drone services!</p>
+                                <small class="text-muted">2 Minutes Ago</small>                 
+                         </div>
+                      </div>
+                  </div>
+               </div> 
+                <!-- END OF UPDATES --> 
+
+                <div class="sales-analytics">
+                     <h2>My Devices</h2>
+                     <div class="item online">
+                        <div class="icon">
+                          <span class="material-icons-sharp">airplanemode_active</span>
+                        </div>
+                        <div class="right">
+                          <div class="info">
+                            <h3>Drone</h3>
+                            <small class="text-muted">last 24hours</small>
+                          </div>
+                          <h5 class="success">82%</h5>
+                          <h3>
+                            <span class="material-icons-sharp">network_wifi_1_bar</span>
+                          </h3>
+                        </div>
+                    </div>
+
+                    <div class="item offline">
+                      <div class="icon">
+                        <span class="material-icons-sharp">android</span>
+                      </div>
+                      <div class="right">
+                        <div class="info">
+                          <h3>Robot</h3>
+                          <small class="text-muted">last 24hours</small>
+                        </div>
+                        <h5 class="warning">2%</h5>
+                        <h3>
+                          <span class="material-icons-sharp">network_wifi</span>
+                        </h3>
+                      </div>
+                  </div>
+
+
+                  <div class="item customers">
+                    <div class="icon">
+                      <span class="material-icons-sharp">phone_android</span>
+                    </div>
+                    <div class="right">
+                      <div class="info">
+                        <h3>My Device</h3>
+                        <small class="text-muted">last 24hours</small>
+                      </div>
+                      <h5 class="success">25%</h5>
+                      <h3>
+                        <span class="material-icons-sharp">signal_wifi_off</span>
+                      </h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                  <div>
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add New Device</h3>
+                  </div>
+                </div>
+              </div>
+          </div>                                           
+       </div>
+       <script src="Assets/Javascript/script.js"></script> 
+       <script src="Assets/Javascript/weather.js"></script>   
+    </body>
+</html>
+
+<!-- 1:23:28 -->
